@@ -1,0 +1,55 @@
+.background {
+    overflow-x: hidden;
+    background-image: url("../images/CorpDude.gif");   
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 70% 80%;
+    background-repeat: no-repeat;
+    /* top: 0; */
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    /* animation: zoom 2s infinite;  */
+}
+
+@keyframes zoom {
+    0% { background-size: 70% 80%; }
+    25% {  background-size: 72% 82%; }
+    75% { background-size: 72% 82%; }
+    100% { background-size: 70% 80%; }
+}
+.mainOption {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    font-size: x-large;
+    margin: 30px;
+    text-align: center;
+    color: white;
+    background-color: #4CA3D9;
+    border-radius: 5px;
+    padding: 15px;
+    animation: bounce 1s infinite; 
+    border: none;
+    outline: none;
+}
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}
+
+.textBox {
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    bottom: 73%;
+    left: 18%;
+    font-size: large;
+}

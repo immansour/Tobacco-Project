@@ -1,0 +1,165 @@
+{
+    "facts": [
+        "Many tobacco companies hid data that would showed the addictiveness of nicotine",
+        "Many tobacco compaines developed new flavors with the simple purpose of getting more youth addicted to their products",
+        "Many tobacco companies have directly targeted certain vulnerable communities with the aim of hooking them specifically to their products",
+        "Electronic Cigarettes are just as addicitive as other tobacco products",
+        "E-cigarette aerosol is NOT harmless “water vapor”, and is in fact very harmful",
+        "Vapors from vapes and tobacco products not only harm you, but are also harmful to bystanders",
+        "More than 16 million Americans are living with a disease caused by smoking",
+        "Smoking is a known cause of erectile dysfunction in males",
+        "Cigarette smoking is responsible for more than 480,000 deaths per year in the United States, which accounts for around 20% of all deaths",
+        "On average, smokers die 10 years earlier than nonsmokers",
+        "Each day, about 2000 people younger than 18 years smoke their first cigarette",
+        "Cigarette smoke contains more than 7,000 chemicals, 70 of which are known to cause cancer",
+        "Nearly 9 out of 10 smokers start before the age of 18 and almost all start smoking by age 26",
+        "Tobacco is the leading cause of preventable death in the world",
+        "Tobacco kills more than 8 million people each year, translating to one smoking-related death every five seconds",
+        "Over 16 million Americans are currently living with a tobacco-related disease",
+        "A typical cigarette can contain anywhere from 8 to 9 milligrams of nicotine",
+        "There is enough nicotine in five cigarettes to kill an average adult if ingested whole",
+        "Of the 8 million smoking-related deaths reported around the world each year, 1.2 million are the result of secondhand smoke",
+        "Tobacco costs the U.S. economy more than $300 billion each year",
+        "Statistics suggest that 5.6 million children living today in the U.S. will die of a smoking-related disease",
+        "Globally, tobacco use has claimed more than 100 million lives in the 20th century. It is expected to claim another billion during the 21st century.",
+        "The World Health Orginization has concluded that half of all smokers will die as a result of tobacco use",
+        "Cigarette smoking is the leading cause of preventable deaths in the United States"
+    ],
+    "healthUp": [
+        {
+            "title": "Cases of death are going up",
+            "image": "healthUp1.jpg"
+        },
+        {
+            "title": "What are you doing, people are dying",
+            "image": "healthUp2.jpg"
+        },
+        {
+            "title": "You made some profit, but at what cost?",
+            "image": "healthUp3.png"
+        },
+        {
+            "title": "Cases of death have increased",
+            "image": "healthUp4.jpg"
+        },
+        {
+            "title": "People are dying, what will you do about it?",
+            "image": "healthUp5.jpg"
+        },
+        {
+            "title": "Your products are killing people",
+            "image": "healthUp6.jpg"
+        },
+        {
+            "title": "More people are dying due to your tobacco products",
+            "image": "healthUp7.jpg"
+        },
+        {
+            "title": "The courts must put an end to this",
+            "image": "healthUp8.png"
+        },
+        {
+            "title": "Tobacco is killing people, what will the goverment do about it?",
+            "image": "healthUp9.jpg"
+        }
+    ],
+    "healthDown": [
+        {
+            "title": "Cases of death are going down",
+            "image": "healthDown1.png"
+        },
+        {
+            "title": "Less people are dying because of your products, but it is not 0",
+            "image": "healthDown2.png"
+        },
+        {
+            "title": "It is a start, let us hope it keeps going down",
+            "image": "healthDown3.png"
+        },
+        {
+            "title": "People are still dying, you should do better",
+            "image": "healthDown4.png"
+        },
+        {
+            "title": "Cases are going down, but there are still people dying",
+            "image": "healthDown5.png"
+        },
+        {
+            "title": "Tobacco products are still killing people",
+            "image": "healthDown6.png"
+        },
+        {
+            "title": "Cases of death have decreased",
+            "image": "healthDown7.png"
+        }
+    ],
+    "marketShareUp": [
+        {
+            "title": "S T O N K S",
+            "image": "marketShareUp1.png"
+        },
+        {
+            "title": "Market Share went UP",
+            "image": "marketShareUp2.png"
+        },
+        {
+            "title": "Making that money I see",
+            "image": "marketShareUp3.png"
+        },
+        {
+            "title": "Here comes the money",
+            "image": "marketShareUp4.png"
+        },
+        {
+            "title": "Market Share went up, but at what cost?",
+            "image": "marketShareUp5.png"
+        },
+        {
+            "title": "Sure, you made money, but was it worth it?",
+            "image": "marketShareUp6.png"
+        },
+        {
+            "title": "One step closer to your goal. One step farther from that of humanity",
+            "image": "marketShareUp7.png"
+        },
+        {
+            "title": "Your market share has increased",
+            "image": "marketShareUp8.png"
+        }
+    ],
+    "marketShareDown": [
+        {
+            "title": "Not Stonks",
+            "image": "marketShareDown1.png"
+        },
+        {
+            "title": "Makret Share has decreased",
+            "image": "marketShareDown2.png"
+        },
+        {
+            "title": "Market Share went down",
+            "image": "marketShareDown3.png"
+        },
+        {
+            "title": "Humanity rejoices",
+            "image": "marketShareDown4.png"
+        },
+        {
+            "title": "Good times are coming",
+            "image": "marketShareDown5.png"
+        },
+        {
+            "title": "Your market share went down, better fix it or else you are FIRED",
+            "image": "marketShareDown6.png"
+        },
+        {
+            "title": "Get your money up",
+            "image": "marketShareDown7.png"
+        },
+        {
+            "title": "Market Share = down",
+            "image": "marketShareDown8.png"
+        }
+    ]
+    
+}

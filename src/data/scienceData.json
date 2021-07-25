@@ -1,0 +1,161 @@
+
+{   
+    "scientists": [
+        {
+            "name": "Tier 1 Scientist",
+            "description": "Unlock the 1st tier of scientist to allow for new modifications to your product. Once purchased, you may unlock Nicotine under the chemicals tab and Orange under the flavors tab.",
+            "image": "chemicals.png",
+            "cost": 2000000,
+            "marketShare": 1.0,
+            "risk": 5.0
+        },
+        {
+            "name": "Tier 2 Scientist",
+            "description": "Unlock the 2nd tier of scientist to allow for new modifications to your product. Once purchased, you may unlock Ammonia under the chemicals tab and Peach under the flavors tab.",
+            "image": "chemicals.png",
+            "cost": 3000000,
+            "marketShare": 1.5,
+            "risk": 8.0
+        },
+        {
+            "name": "Tier 3 Scientist",
+            "description": "Unlock the 3rd tier of scientist to allow for new modifications to your product. Once purchased, you may unlock Menthol under the chemicals tab and Fruit Punch under the flavors tab.",
+            "image": "chemicals.png",
+            "cost": 4000000,
+            "marketShare": 2.0,
+            "risk": 11.0
+        }
+    ],
+
+    "ingredients": [
+        {
+            "name": "Nicotine",
+            "description": "Upgrade your product to include nicotine. Fairly addictive and will keep customers coming back for more.",
+            "image": "chemicals.png",
+            "cost": 2000000,
+            "marketShare": 1.0,
+            "risk": 5.0,
+            "purchaseConfirmation": "Nicotine is very addictive and is comparable to that of cocaine! It has been shown to have adverse effects including but not limited to the brain, heart, blood, nervous system, lungs, and immune system… (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4363846/)"
+        },
+        {
+            "name": "Ammonia",
+            "description": "Upgrade your product to include Ammonia. Allows greater absorption of nicotine which will make people more addicted.",
+            "image": "chemicals.png",
+            "cost": 3000000,
+            "marketShare": 1.5,
+            "risk": 8.0,
+            "purchaseConfirmation": "Ammonia will make your Nicotine upgrade even more addictive, as Ammonia has been shown to increase the absorption of Nicotine. This will increase the magnitude of the health effects that Nicotine has. (https://www.verywellmind.com/boosting-the-impact-of-nicotine-with-ammonia-2824731)"
+        },
+        {
+            "name": "Menthol",
+            "description": "Upgrade your product to include Menthol. Analgesic which reduces the burn so people can inhale more Nicotine easily.",
+            "image": "chemicals.png",
+            "cost": 4000000,
+            "marketShare": 2.0,
+            "risk": 11.0,
+            "purchaseConfirmation": "Menthol will make your product feel less dangerous and harmful as it induces a cooling sensation when a user inhales. However, the health effects are still present! Adding this final upgrade will make your product extremely addictive and hard to quit, as people will believe that your product is not that harmful… (https://www.cdc.gov/tobacco/basic_information/tobacco_industry/menthol-cigarettes/index.html)"
+        },
+        {
+            "name": "Monosaccharides",
+            "description": "Upgrade your product to include monosaccharides and disaccharides. These substances, also known as sugars, improve the flavor and addictivity of tobacco products.",
+            "image": "chemicals.png",
+            "cost": 2500000,
+            "marketShare": 1.2,
+            "risk": 3.0,
+            "purchaseConfirmation": "In addition to monosaccharides and disaccharides improving the flavor, when burned they have the added effect of releasing a multitude of toxic compounds including formaldehyde, acetaldehyde, acetone, acrolein, furans and a variety of complex aldehydes. (https://ec.europa.eu/health/scientific_committees/opinions_layman/tobacco/en/l-3/5.htm)"
+        },
+        {
+            "name": "Theobromine",
+            "description": "Upgrade your product to include Theobromine. Theobromine is known as a bronchodilator, it is believed that the bronchodilating effect of this substance increases the absorption of nicotine.",
+            "image": "chemicals.png",
+            "cost": 3500000,
+            "marketShare": 1.8,
+            "risk": 9.0,
+            "purchaseConfirmation": "Theobromine is a substance often used to treat asthma as it dilates your bronchi and bronchioles. This increases the airflow to your lungs and also increases the surface area allowing for more nicotine to be absorbed. (https://ec.europa.eu/health/scientific_committees/opinions_layman/tobacco/en/l-3/5.htm)"
+        },
+        {
+            "name": "Lactones",
+            "description": "Upgrade your product to include Lactones. Decreases the metabolic rate of nicotine which is believed to increase the addictivity of it.",
+            "image": "chemicals.png",
+            "cost": 5000000,
+            "marketShare": 3.0,
+            "risk": 15.0,
+            "purchaseConfirmation": "Lactones inhibitr the metabolic enzymes involved in degrading nicotine which leads to nicotine being present in the body for a longer time or at a high blood level concentration. Gamma-heptalactone, gamma-valerolactone, gamma-decalactone, delta-decalactone, gamma-dodecalactone, delta-undecalactone and gamma-hexalactone are examples of inhibitors. (https://ec.europa.eu/health/scientific_committees/opinions_layman/tobacco/en/l-3/5.htm)"
+        }
+    ],
+
+    "flavors": [
+        {
+            "name": "Orange",
+            "description": "Upgrade your product to be orange flavored. Basic flavoring will attract more people to try your product.",
+            "image": "chemicals.png",
+            "cost": 1000000,
+            "marketShare": 0.5,
+            "risk": 5.0
+        },
+        {
+            "name": "Peach",
+            "description": "Upgrade your product to be peach flavored. More effective for reaching young ages.",
+            "image": "chemicals.png",
+            "cost": 1500000,
+            "marketShare": 1.0,
+            "risk": 10.0
+        },
+        {
+            "name": "Fruit Punch",
+            "description": "Upgrade your product to be fruit punch flavored. Highly effective for reaching young ages. More people will try your product.",
+            "image": "chemicals.png",
+            "cost": 2000000,
+            "marketShare": 1.5,
+            "risk": 15.0
+        },
+        {
+            "name": "Strawberry Kiwi",
+            "description": "Upgrade your product to be strawberry kiwi flavored. Basic flavoring will attract more people to try your product.",
+            "image": "chemicals.png",
+            "cost": 1000000,
+            "marketShare": 0.5,
+            "risk": 5.0
+        },
+        {
+            "name": "Apple",
+            "description": "Upgrade your product to be apple flavored. More effective for reaching young ages.",
+            "image": "chemicals.png",
+            "cost": 1500000,
+            "marketShare": 1.0,
+            "risk": 10.0
+        },
+        {
+            "name": "Choclate",
+            "description": "Upgrade your product to be choclate flavored. Highly effective for reaching young ages. More people will try your product.",
+            "image": "chemicals.png",
+            "cost": 2000000,
+            "marketShare": 1.5,
+            "risk": 15.0
+        },
+        {
+            "name": "Mango",
+            "description": "Upgrade your product to be mango flavored. Basic flavoring will attract more people to try your product.",
+            "image": "chemicals.png",
+            "cost": 1000000,
+            "marketShare": 0.5,
+            "risk": 5.0
+        },
+        {
+            "name": "Strawberry",
+            "description": "Upgrade your product to be strawberry flavored. More effective for reaching young ages.",
+            "image": "chemicals.png",
+            "cost": 1500000,
+            "marketShare": 1.0,
+            "risk": 10.0
+        },
+        {
+            "name": "Pineapple",
+            "description": "Upgrade your product to be pineapple flavored. Highly effective for reaching young ages. More people will try your product.",
+            "image": "chemicals.png",
+            "cost": 2000000,
+            "marketShare": 1.5,
+            "risk": 15.0
+        }
+    ]
+}

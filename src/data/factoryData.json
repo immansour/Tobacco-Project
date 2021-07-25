@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Northwest Factory",
+        "image": "mapNorthwest.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Northern Rockies Factory",
+        "image": "mapEastNorthCentral.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Upper Midwest Factory",
+        "image": "mapCentral.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "West Factory",
+        "image": "mapWest.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Central Factory",
+        "image": "mapWestNorthCentral.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Northeast Factory",
+        "image": "mapNortheast.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Southwest Factory",
+        "image": "mapSouthWest.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "South Factory",
+        "image": "mapSouth.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Southeast Factory",
+        "image": "mapSouthEast.png",
+        "cost": 2000000,
+        "marketShare": 1.5,
+        "risk": 5.0
+    },
+    {
+        "name": "Hire tier 1 scientist",
+        "image": "chemicals.png"
+    },
+    {
+        "name": "Hire tier 2 scientist",
+        "image": "chemicals.png"
+    },
+    {
+        "name": "Hire tier 3 scientist",
+        "image": "chemicals.png"
+    }
+]

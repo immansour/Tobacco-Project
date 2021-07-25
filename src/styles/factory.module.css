@@ -1,0 +1,501 @@
+.factoryPageWrapper {
+  background-image: url("../images/factoryAlt4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1%;
+  margin-right: 7vw;
+}
+
+.chemicalContainer {
+  text-align: center;
+  background-image: "factory.png";
+  padding: 1%;
+  border-radius: 10px;
+  width: 95%;
+  margin: 5px;
+}
+
+.buttonWrapper {
+  /* padding: 0px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mapPicture {
+  background-color: red;
+  top: 47%;
+  position: relative;
+  width: 53%;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.leftSection {
+  width: 80%;
+  height: 92vh;
+  float: left;
+}
+
+.rightSection {
+  height: 100vh;
+  margin-left: 80%;
+  background-color: #4ca3d9;
+  padding: 2%;
+  /* border-radius: 10px; */
+}
+
+.backToMapButton {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  background-color: red;
+  border-radius: 0.5vh;
+  margin-left: 2%;
+  margin-top: 15px;
+  /* margin-right: 7%; */
+  /* margin-left: 70%; */
+  color: white;
+  border: 7px;
+  padding: 3px;
+  font-size: 2vh;
+  width: 10vw;
+  height: 5vh;
+  float: left;
+}
+
+.horizontalContainer {
+  padding: 1%;
+  height: 25vh;
+  /* display: flex; */
+}
+
+.passWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category {
+  padding: 2%;
+  height: 24vh;
+  border-radius: 20px;
+  letter-spacing: -3px;
+  font-size: 1.6vh;
+  margin-right: 0.5%;
+  font-weight: bold;
+  background: lightblue;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #4ca3d9;
+  float: left;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+}
+
+.infoBox {
+  padding: 10px;
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  background-color: lightblue;
+  border-radius: 10px;
+  height: 50vh;
+  font-size: calc(9px + 0.43vh);
+}
+
+.buyButton {
+  background-color: green;
+  width: 100%;
+  margin-top: 5vh;
+  border-radius: 1vh;
+  padding: 1vh;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+.buyButtonOut {
+  background-color: green;
+  width: 100%;
+  margin-top: 5vh;
+  border-radius: 1vh;
+  padding: 1vh;
+  font-weight: bold;
+  color: white;
+  border: none;
+  opacity: 0.5;
+}
+
+.buildFactoryButton {
+  margin-top: 15px;
+  background-color: rgb(255, 94, 0);
+  width: 14vw;
+  height: 8vh;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  font-size: calc(0.85vw);
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+  }
+  50% {
+    transform: translateX(-7px);
+  }
+  100% {
+  }
+}
+
+.statsBox {
+  text-align: center;
+  margin-top: 1vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  background-color: lightcoral;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  padding: 0.7vh;
+  border: none;
+}
+
+.factoryStatsBox {
+  background-color: lightcoral;
+  border-radius: 7px;
+  height: 40px;
+  width: 25%;
+  margin: 4px;
+  font-weight: bold;
+  border: none;
+}
+
+.factoryCostBox {
+  background-color: orange;
+  border-radius: 10px;
+  height: 40px;
+  width: 25%;
+  margin: 4px;
+  font-weight: bold;
+  border: none;
+}
+
+.hexagonCostBox {
+  text-align: center;
+  background-color: orange;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 100%;
+  font-weight: bold;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  padding: 0.7vh;
+  border: none;
+}
+
+.hexagonMarketShareBox {
+  text-align: center;
+  background-color: brown;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 100%;
+  font-weight: bold;
+  padding: 0.7vh;
+  border: none;
+}
+
+.finishButton {
+  background-color: white;
+  border-radius: 0.5vh;
+  margin-right: 4%;
+  margin-top: 1%;
+  color: red;
+  border: none;
+  width: 5vw;
+  height: 6vh;
+  font-size: 2vh;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px 5px 6px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.infoButton {
+  /* height: 1px; */
+  background-color: transparent;
+  color: white;
+  border: none;
+  /* margin-left: 50px; */
+  font-size: calc(15px + 1.5vh);
+  animation: switch 3s linear infinite;
+}
+
+@keyframes switch {
+  25% {
+    color: #4ca3d9;
+  }
+  75% {
+    color: white;
+  }
+}
+
+.factoryPopupWrapper {
+  height: 70vh;
+  background-color: pink;
+  /*text-align: left;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;*/
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.closeButton {
+  background-color: red;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 1%;
+  padding: 1%;
+  border: none;
+}
+
+.factoryInfoBox {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 140%;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 1%;
+  padding: 1%;
+}
+
+.factoryBuyButton {
+  background-color: green;
+  width: 100%;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 1%;
+  padding: 1%;
+  border: none;
+  outline: none;
+}
+
+.opac {
+  opacity: 0.3;
+}
+
+.nonOpac {
+  opacity: 1;
+}
+
+.factoryButtonWrapper {
+  background-color: #084081;
+  /* background-image: url('../images/factorysmoke2.gif'); */
+  background-size: 100% 100%;
+  width: 100%;
+  height: 19vh;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 1%;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 14pt;
+  color: white;
+  background-position: center;
+}
+
+.factoryButtonWrapperNotPicked {
+  background-color: #084081;
+  /* background-image: url('../images/factorysmoke2.gif'); */
+  background-size: 100% 100%;
+  width: 100%;
+  height: 19vh;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 1%;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 14pt;
+  color: white;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.factoryButtonWrapperPicked {
+  background-position: center;
+
+  background-color: #084081;
+  /* background-image: url('../images/factorysmoke2.gif'); */
+  background-size: 100% 100%;
+  width: 100%;
+  height: 19vh;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: red;
+  margin: 1%;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 14pt;
+  color: white;
+  /* border: none; */
+  outline: none;
+}
+
+.confirmationTitle {
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.confirmationInfo {
+  margin: 20px;
+  font-size: large;
+  word-wrap: break-word;
+}
+
+.yesButton {
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #09e809;
+  border: none;
+  border-radius: 20px;
+}
+
+.yesButton:hover {
+  background-color: #1db518;
+}
+
+.yesButton:active {
+  background-color: #1db518;
+  transform: translateY(4px);
+}
+
+.noButton {
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: 0 !important;
+  color: #fff;
+  background-color: #e80909;
+  border: none;
+  border-radius: 20px;
+}
+
+.noButton:hover {
+  background-color: #b51818;
+}
+
+.noButton:active {
+  background-color: #b51818;
+  transform: translateY(4px);
+}
+
+.sciencePopupWrapper {
+  /* height: 75vh; */
+  background-color: whitesmoke;
+  padding: 4vh;
+  word-wrap: break-word;
+}
+
+.buttonSpacing {
+  width: 5%;
+}
+
+.leftArrow {
+  margin-left: 10%;
+}
+
+.rightArrow {
+  margin-left: 92.5%;
+}
+
+.flavorButton {
+  position: absolute;
+  background-color: black;
+  font-size: 3vh;
+  /* vertical-align: middle; */
+  margin-top: 10vh;
+  /* height: 50px; */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding-bottom: 1.4vh;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+  text-align: center;
+}
+
+.flavorButtonDisabled {
+  position: absolute;
+  background-color: black;
+  font-size: 3vh;
+  /* vertical-align: middle; */
+  margin-top: 10vh;
+  /* height: 50px; */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding-bottom: 1.4vh;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+  text-align: center;
+  opacity: 0.5;
+}

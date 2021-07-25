@@ -1,0 +1,55 @@
+.factWrapper {
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+}
+    
+.fact {
+    display: flex;
+    font-size: large;
+    margin: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.nextButton {
+    text-align: center;
+    background-color: #4CA3D9;
+    border-radius: 5px;
+    padding: 1.2%;
+    margin: 2%;
+    color: white;
+    border: none;
+    font-size: large;
+    float: right;
+}
+
+.healthDown {
+    color: red;
+    font-size: large;
+}
+
+.healthUp {
+    color: green;
+    font-size: large;
+}
+
+.healthImage {
+    width: 35%;
+    height: 35%;
+    margin: 0 auto;
+    animation: bounce 1s infinite; 
+
+}
+
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}

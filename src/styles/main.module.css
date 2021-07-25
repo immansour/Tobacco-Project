@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bgwidth { width: 100%; } .bgheight { height: 100%; }
+
+.pageWrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    margin: 0 auto;
+    padding: 10%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("../images/mainBackground.png");
+    background-size: 100vw 100vh;
+    /* background-size: cover; */
+    bottom: 0;
+    margin: 0;
+    /* background-position: center bottom; */
+}
+
+.gameTitle {font-family: 'Fredoka One', cursive;
+    font-size: 320%;
+    margin-bottom: 5%;
+}
+
+.mainOption {
+    margin: 20px auto;
+    width: 60%;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.shareButton {
+    margin: 20px auto;
+    width: 25%;
+    height: 40px;
+    background-color: #ADD8E6;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  large;
+    animation: bounce 1s infinite; 
+    outline: none;
+    border: none;
+}
+
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}

@@ -1,0 +1,39 @@
+.gameFinishedWrapper {
+    padding: 5%;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.mainOption {
+    margin: 11px auto;
+    width: 35%;
+    height: 55px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.gameFinishedTitle {
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    animation: bounce 1s infinite; 
+
+}
+
+.gameFinishedContent {
+    font-size: large;
+    margin: 30px;
+}
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}

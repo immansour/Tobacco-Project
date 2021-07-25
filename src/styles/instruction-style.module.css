@@ -1,0 +1,152 @@
+.textSpacing {
+  padding: 10px;
+}
+
+.instructionWrapper {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/smoke.gif");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pageSection {
+  height: 100vh;
+  background-color: #000;
+}
+
+video {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  z-index: "-1";
+}
+
+.textBox {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.textBox span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
+}
+
+.textBox span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.textBox span:nth-child(2) {
+  animation-delay: 0.75s;
+}
+
+.textBox span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.textBox span:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.textBox span:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.textBox span:nth-child(6) {
+  animation-delay: 8.5s;
+  width: 100%;
+}
+
+.mainInstructions {
+  padding: 5%;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-size: 125%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo {
+  transform: rotate(180deg);
+  padding-left: 20px;
+  width: 214px;
+  height: 21px;
+}
+
+.menuIcon {
+  margin: 5vh;
+  width: 8vh;
+  height: 8vh;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popupWrapper {
+  /* border-radius: 25px; */
+  padding: 5%;
+  color: black;
+  background-color: black;
+  margin: 0;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px 5px 6px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: white;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+
+.mainOption {
+  margin: 20px auto;
+  width: 60%;
+  height: 75px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}

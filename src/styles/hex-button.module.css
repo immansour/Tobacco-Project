@@ -1,0 +1,43 @@
+.button {
+  width: "100%";
+  height: "100%";
+  position: absolute;
+  stroke-width: "2%";
+}
+
+.buttonP {
+  width: "100%";
+  height: "100%";
+  position: absolute;
+  stroke-width: "50%";
+  opacity: 0.6;
+  /* background-color: red; */
+}
+
+.button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.fullBox {
+  width: 21.5vh;
+  height: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 1.42%;
+}
+
+.locked {
+  /* height: 23vh; */
+  width: 21.5vh;
+  z-index: 9;
+}
+
+.lockedImage {
+  width: 110%;
+  /* height: 23vh; */
+
+  display: flex;
+  transform: translateX(-1.4vh) translateY(-5.6vh);
+}
+

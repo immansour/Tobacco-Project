@@ -1,0 +1,290 @@
+.opac {
+    background-color: black;
+    opacity: 0.2;
+}
+
+.nonOpac {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title {
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    text-align: center;
+    color: #F3F3F3;
+    text-decoration: underline;
+}
+
+.background {
+    position: absolute;
+     overflow-x: hidden;
+     background-image: url("../images/headquartersBackground4.jpg");   
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     top: 0;
+     left: 0;
+     margin: 0;
+     padding: 0;
+     background-color: #4CA3D9;
+     height: 100%;
+     width: 100%;
+}
+
+.closeButtonWrappers {
+    display: flex;
+}
+
+.buttonChoiceWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.optionContainer {
+    border: #F3F3F3;
+    text-align: left;
+    padding: 1vw;
+    background-color: #F3F3F3;
+    border-radius: 25px;
+    width: 65%;
+    margin: 15px auto;
+}
+
+.columnStats {
+    margin: 10px;
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.buttonRed {
+    display: inline-block;
+    padding: 1.4vh 1.7vw;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: 0 !important;
+    color: #fff;
+    background-color: #e80909;
+    border: none;
+    border-radius: 25px;
+}
+
+.buttonRed:hover {
+    background-color: #b51818
+}
+
+.buttonRed:active {
+    background-color: #b51818;
+    transform: translateY(4px);
+}
+
+
+
+.buttonGreen {
+    display: inline-block;
+    padding: 1.4vh 1.7vw;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #09e809;
+    border: none;
+    border-radius: 25px;
+}
+
+.buttonGreen:hover {
+    background-color: #1db518
+}
+
+.buttonGreen:active {
+    background-color: #1db518;
+    transform: translateY(4px);
+}
+
+.statsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    font-size: 18px;
+}
+
+.optionTitle {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.shortDescription {
+    font-size: 16px;
+}
+
+
+.optionCost {
+    color: green;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+.optionRisk {
+    color: blue;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.optionHealthEffects {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px 5px 6px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+.popupWrapper {
+    border-radius: 25px;
+    padding: 5%;  
+}
+
+.popupContentWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.switchButton {
+    background-color: white;
+    border-radius: 0.5vh;
+    padding: 0.5vh;
+    margin-left: 4%;
+    margin-top: 1%;
+    color: #4CA3D9;
+    border: none;
+    font-size: 2.5vh;
+    width: 11vw;
+    height: 6vh;
+    animation: bounce 1s infinite; 
+}
+
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateX(-5px); }
+    100% { }
+}
+
+.finishButton {
+    background-color: white;
+    border-radius: 0.5vh;
+    margin-right: 4%;
+    margin-top: 1%;
+    color: red;
+    border: none;
+    width: 5vw;
+    height: 6vh;
+    font-size: 2vh;
+}
+
+
+.backToMapButton {
+    position:absolute;
+    background-color: white;
+    border-radius: 0.5vh;
+    margin-left: 4%;
+    margin-top: 1%;
+    color: red;
+    border: 7px;
+    padding: 3px;
+    font-size: 2vh;
+    width: 10vw;
+    height: 5vh;
+    float: left;
+}
+
+.backToMapButtonLobbying {
+    position:absolute;
+    background-color: white;
+    border-radius: 0.5vh;
+    margin-left: 4%;
+    margin-top: 1%;
+    color: red;
+    border: 7px;
+    padding: 3px;
+    font-size: 2vh;
+    width: 10vw;
+    height: 5vh;
+    float: left;
+    border: solid;
+}
+
+
+.infoButton {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 10px;
+    margin-top: 0;
+    font-size: 4vh;
+    animation: switch 3s linear infinite;
+}
+
+.infoButtonL {
+    border-radius: 5px;
+    background-color: transparent;
+    color: #4CA3D9;
+    border: none;
+    margin: 10px;
+    margin-top: 0;
+    font-size: 4vh;
+    animation: switch 3s linear infinite;
+}
+
+
+@keyframes switch { 
+    25% { 
+        color: #4CA3D9;
+    }
+    75% { 
+        color: white;
+    }
+  }
+
+.finishButtonL {
+    background-color: white;
+    border-radius: 0.5vh;
+    margin-right: 4%;
+    margin-top: 1%;
+    color: red;
+    border: none;
+    width: 5vw;
+    height: 6vh;
+    font-size: 2vh;
+    border-style: solid;
+}

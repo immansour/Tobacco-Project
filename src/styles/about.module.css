@@ -1,0 +1,69 @@
+.aboutTitle {
+    z-index:3;
+    text-align: center;
+    font-size: 65px;
+    color: black;
+}
+
+.aboutBackground {
+    width: 100%;
+    z-index: -1;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.aboutText {
+    z-index:4;
+    text-align: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 7%;
+    border: none;
+    font: normal 20px/1 "Times New Roman", Times, serif;
+    color:rgb(10, 64, 123);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+
+
+.buttonWrapper {
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+}
+
+
+.buttonBack {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: 0 !important;
+    color: #fff;
+    background-color: #ff7c25; 
+    border: none;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+
+
+.buttonBack:hover {
+    background-color: #fa6400;
+    color: white;
+}
+
+.buttonBack:active {
+    background-color: #ff4800;
+    transform: translateY(4px);
+}

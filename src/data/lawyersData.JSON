@@ -1,0 +1,26 @@
+[
+  {
+    "name": "New Graduate",
+    "shortDescription": "Straight out of law school. Lacks experience and known to be unprepared.",
+    "costRating": "3M-4M",
+    "riskRating": "25-40%",
+    "cost": "1M",
+    "imageUrl": "map.PNG"
+  },
+  {
+    "name": "Experienced",
+    "shortDescription": "Experienced lawyer, with 10 years of experience under their belt. ",
+    "costRating": "2M-3M",
+    "riskRating": "45-70%",
+    "cost": "2.5M",
+    "imageUrl": "map.PNG"
+  },
+  {
+    "name": "Pro",
+    "shortDescription": "Specialist in the field of defending tobacco companies. Your best bet if you want to win.",
+    "costRating": "1M-2M",
+    "riskRating": "75-100%",
+    "cost": "4M",
+    "imageUrl": "map.PNG"
+  }
+]

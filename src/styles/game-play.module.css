@@ -1,0 +1,813 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.headquarterActiveLauncher {
+  position: absolute;
+  left: 30.74vw;
+  width: 9vh;
+  height: 9vh;
+  top: 36vh;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border-color: yellow;
+  animation: switch 1s linear infinite;
+  border: 6px solid;
+  padding: 1vh;
+}
+
+.factoryActiveLauncher {
+  position: absolute;
+  left: 46.5%;
+  width: 9vh;
+  height: 9vh;
+  top: 59%;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border-color: yellow;
+  animation: switch 1s linear infinite;
+  border: 6px solid;
+  padding: 1vh;
+}
+
+.courtActiveLauncher {
+  position: absolute;
+  left: 64.5%;
+  width: 9vh;
+  height: 9vh;
+  top: 36%;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border-color: yellow;
+  animation: switch 1s linear infinite;
+  border: 6px solid;
+  padding: 1vh;
+}
+
+@keyframes switch {
+  25% {
+    border-color: white;
+  }
+  75% {
+    border-color: yellow;
+  }
+}
+
+.map {
+  background-color: #084081;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.checklistTitle {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2vh;
+}
+
+.checklistFinished {
+  text-decoration: line-through;
+  /* font-size: large; */
+}
+
+.checklistNotFinished {
+  /* font-size: large; */
+  animation: switchColor 2s linear infinite;
+}
+
+@keyframes switchColor {
+  25% {
+    color: black;
+  }
+  50% {
+    color: #b8b81d;
+  }
+  75% {
+    color: #b8b81d;
+  }
+}
+
+.checklistContainer {
+  background-color: lightblue;
+  color: black;
+  position: absolute;
+  bottom: 45vh;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 1.7vh;
+}
+
+.mapOpac {
+  background-color: #084081;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  opacity: 0.6;
+}
+
+.map::-webkit-scrollbar {
+  display: none;
+}
+
+.mapPicture {
+  top: 47%;
+  position: relative;
+  transform: translateY(-50%);
+  width: 53%;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.mapMain {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.mapOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.profitContainer {
+  min-width: 200px;
+  min-height: 80px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  width: 12vw;
+  height: 8vh;
+  font-size: 1.5vh;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dayContainer {
+  min-width: 100px;
+  min-height: 80px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+  width: 8vw;
+  height: 8vh;
+  font-size: 1.5vh;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.marketShareContainer {
+  min-width: 200px;
+  min-height: 80px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  width: 12vw;
+  height: 8vh;
+  font-size: 1.5vh;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left : calc(50% - 8vw);
+  color: white;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.healthContainer {
+  min-width: 200px;
+  min-height: 80px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  width: 12vw;
+  height: 8vh;
+  font-size: 1.5vh;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: white;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.healthContainer:hover {
+  transform: translateY(-2px);
+}
+
+.marketShareContainer:hover {
+  transform: translateY(-2px);
+}
+.dayContainer:hover {
+  transform: translateY(-2px);
+}
+.profitContainer:hover {
+  transform: translateY(-2px);
+}
+.productButton {
+  padding: 1px;
+  margin: 20px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  color: black;
+}
+
+.panelContiner {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  z-index: 1000000;
+}
+
+.quantityWrapper {
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.quantityTitle {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.quantityIcon {
+  font-size: x-large;
+}
+
+.headquarterLauncher {
+  position: absolute;
+  left: 30.74%;
+  width: 9vh;
+  height: 9vh;
+  top: 36%;
+  background-color: grey;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border: 6px solid grey;
+  padding: 1vh;
+}
+
+.factoryLauncher {
+  position: absolute;
+  left: 46.5%;
+  width: 9vh;
+  height: 9vh;
+  top: 59%;
+  background-color: grey;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border: 6px solid grey;
+  padding: 1vh;
+}
+
+.courtLauncher {
+  position: absolute;
+  left: 64.5%;
+  width: 9vh;
+  height: 9vh;
+  top: 36%;
+  background-color: grey;
+  margin: 0;
+  text-align: center;
+  border-radius: 50%;
+  font-size: larger;
+  color: white;
+  border: 6px solid grey;
+  padding: 1vh;
+}
+
+.sliderWrapper {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: "Roboto Mono", monospace;
+}
+
+.marketShareScore {
+  margin-top: 15px;
+}
+
+.healthScore {
+  margin-top: 15px;
+}
+
+.menuIcon {
+  margin: 5vh;
+  width: 8vh;
+  height: 8vh;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.menuIcon:hover {
+  cursor: pointer;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px 5px 6px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.popupWrapper {
+  /* border-radius: 25px; */
+  padding: 5%;
+  background-color: lightblue;
+}
+
+.popupContentWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nextDayContainer {
+  border-radius: 10px;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 5vh;
+  margin-right: 6vh;
+  width: 20vh;
+  height: 8vh;
+  color: black;
+  background-color: lightblue;
+  position: absolute;
+  top: 0;
+  right: 13vh;
+  border: none;
+  font-size: 2vh;
+}
+
+.faded {
+  opacity: 0.4;
+}
+
+.icon {
+  width: 3vh;
+  height: 3vh;
+}
+
+.temp {
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.headquarterActiveLauncher {
+    position: absolute;
+    left: 30.74vw;
+    width: 9vh;
+    height: 9vh;
+    top: 36vh;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border-color: yellow;
+    animation: switch 1s linear infinite;
+    border: 6px solid;
+    padding: 1vh
+}
+
+.factoryActiveLauncher {
+    position: absolute;
+    left: 46.5%;
+    width: 9vh;
+    height: 9vh;
+    top: 59%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border-color: yellow;
+    animation: switch 1s linear infinite;
+    border: 6px solid;
+    padding: 1vh
+}
+
+.courtActiveLauncher {
+    position: absolute;
+    left: 64.5%;
+    width: 9vh;
+    height: 9vh;
+    top: 36%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border-color: yellow;
+    animation: switch 1s linear infinite;
+    border: 6px solid;
+    padding: 1vh
+
+}
+
+
+@keyframes switch { 
+    25% { 
+        border-color: white;
+    }
+    75% { 
+        border-color: yellow;
+    }
+  }
+
+.map {
+    background-color: #084081;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.checklistTitle {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2vh;
+}
+
+.checklistFinished {
+    text-decoration: line-through;
+}
+
+.checklistNotFinished {
+    animation: switchColor 2s linear infinite;
+}
+
+
+@keyframes switchColor { 
+    25% { 
+        color: black;
+    }
+    50% { 
+        color: #b8b81d;
+    }
+    75% { 
+        color: #b8b81d;
+    }
+  }
+
+.checklistContainer {
+    background-color: lightblue;
+    color: black;
+    position: absolute;
+    bottom: 45vh;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 1.7vh;
+}
+
+.mapOpac {
+    background-color: #084081;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+}
+
+.map::-webkit-scrollbar {
+    display: none;
+}
+
+.mapPicture {
+    top: 47%;
+    position: relative;
+    transform: translateY(-50%);
+    width: 53%;
+    margin: auto auto;
+    vertical-align: middle
+}
+
+.profitContainer {
+    min-width: 200px;
+    min-height: 80px;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    width: 12vw;
+    height: 8vh;
+    font-size: 1.5vh;   
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.dayContainer {
+    min-width: 100px;
+    min-height: 80px;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    width: 8vw;
+    height: 8vh;
+    font-size: 1.5vh;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.marketShareContainer {
+    min-width: 200px;
+    min-height: 80px;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    width: 12vw;
+    height: 8vh;
+    font-size: 1.5vh;     
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 111px);
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.healthContainer {
+    min-width: 200px;
+    min-height: 80px;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    width: 12vw;
+    height: 8vh;
+    font-size: 1.5vh; 
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.healthContainer:hover {
+    transform: translateY(-2px);
+}
+
+.marketShareContainer:hover {
+    transform: translateY(-2px);
+}
+.dayContainer:hover {
+    transform: translateY(-2px);
+}
+.profitContainer:hover {
+    transform: translateY(-2px);
+}
+.productButton {
+    padding: 1px;
+    margin: 20px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+    color: black;
+}
+
+.panelContiner {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000000;
+}
+
+.quantityWrapper {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.quantityTitle {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.quantityIcon {
+    font-size: x-large;
+}
+
+.headquarterLauncher {
+    position: absolute;
+    left: 30.74%;
+    width: 9vh;
+    height: 9vh;
+    top: 36%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border: none;
+    padding: 1vh
+
+}
+
+.factoryLauncher {
+    position: absolute;
+    left: 46.5%;
+    width: 9vh;
+    height: 9vh;
+    top: 59%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border: 6px solid white;
+    padding: 1vh
+
+}
+
+.courtLauncher {
+    position: absolute;
+    left: 64.5%;
+    width: 9vh;
+    height: 9vh;
+    top: 36%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: larger;
+    color: white;
+    border: none;
+    padding: 1vh
+
+}
+
+
+
+.sliderWrapper {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.marketShareScore {
+    margin-top: 15px;
+}
+
+.healthScore {
+    margin-top: 15px;
+}
+
+.menuIcon {
+    margin: 5vh;
+    width: 8vh;
+    height: 8vh;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px 5px 6px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+.popupWrapper {
+    border-radius: 25px;
+    padding: 5%;  
+}
+
+.popupContentWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nextDayContainer {
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
+    margin: 5vh;
+    width: 20vh;
+    height: 8vh;
+    color: black;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    right: 8vh;
+    border: none;
+    font-size: 2vh;
+}
+
+.faded {
+    opacity: 0.4;
+}
+
+.icon {
+    width: 3vh;
+    height: 3vh;
+}
+
+.temp {} */

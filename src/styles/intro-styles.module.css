@@ -1,0 +1,62 @@
+.robotImage {
+    width: 27vw;
+    /* height: 260px; */
+    
+}
+
+.mapIntro {
+    position: absolute; 
+    z-index: 231231;
+    bottom: 0px;
+    left: 16.5%;
+}
+
+.mapText {
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    bottom: 73%;
+    left: 75%;
+    font-size: 2vh;
+}
+
+.hqText {
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    width: 120%;
+    border-radius: 20px;
+    padding: 20px;
+    bottom: 73%;
+    left: 75%;
+    font-size: large;
+    border: solid 2px black;
+    font-size: 2vh;
+
+}
+
+.mainOption {
+    /* position: relative; */
+    bottom: 0px;
+    right: 0px;
+    font-size: 2.3vh;
+    text-align: center;
+    color: white;
+    background-color: #4CA3D9;
+    border-radius: 5px;
+    padding: 5px;
+    animation: bounce 1s infinite; 
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    float: right;
+}
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}
